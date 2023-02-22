@@ -1,0 +1,38 @@
+/* Styles for the search filters */
+.filters {
+  background-color: #f5f5f5;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.filters h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.filters input, .filters select {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  width: 100%;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.filters button {
+  display: block;
+  margin-top: 1em;
+  padding: 0.5em;
+  width: 100%;
+  font-size: 1em;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 3px;
+}

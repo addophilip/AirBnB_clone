@@ -1,0 +1,33 @@
+/* Styles for the search results */
+.places {
+  margin: 1em 0;
+}
+
+.places h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.places li {
+  display: block;
+  margin-bottom: 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.places li h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.places li p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Styles for the placeholder image */
+.places li img {
+  width: 100%;
+  height: auto;
+}

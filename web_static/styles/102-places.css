@@ -1,0 +1,27 @@
+/* Styles for the places section */
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.place {
+  flex-basis: calc(33.33% - 1em);
+  margin-bottom: 1em;
+}
+
+.place img {
+  margin-bottom: 0.5em;
+}
+
+.place h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.place p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}

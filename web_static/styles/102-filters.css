@@ -1,0 +1,20 @@
+/* Styles for the filters section */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #f2f2f2;
+}
+
+.filters h2 {
+  margin: 0;
+}
+
+.filters select {
+  font-size: 16px;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+  margin-left: 1em;
+}

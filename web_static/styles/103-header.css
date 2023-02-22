@@ -1,0 +1,74 @@
+/* Styles for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+header li:last-child {
+  margin-right: 0;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Accessibility improvements */
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+header nav li:last-child {
+  margin-right: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav button {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+header nav button:hover {
+  background-color: #444;
+}
